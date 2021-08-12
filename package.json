@@ -1,0 +1,21 @@
+{
+  "name": "medialab_excercise",
+  "version": "1.0.0",
+  "description": "this is the exercise for MediaLab interview ",
+  "main": "index.js",
+  "scripts": {
+    "run-allure": "mocha ./pom/tests/assigmentTest.js mocha --timeout 450000 mocha --reporter mocha-allure-reporter",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "run-console": "mocha ./pom/tests/assigmentTest.js mocha --timeout 450000"
+  },
+  "author": "Ivan Tsuzuki",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chromedriver": "^91.0.1",
+    "faker": "^5.5.3",
+    "mocha": "^9.0.3",
+    "mocha-allure-reporter": "^1.4.0",
+    "selenium-webdriver": "^3.6.0"
+  }
+}

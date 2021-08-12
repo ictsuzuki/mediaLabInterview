@@ -11,6 +11,14 @@ Repository created for resolve the asigment interview at MediaLab
   now displayed
 * Validate that the alert box has spawned with the correct copy
 
+# Tools
+
+* WebDriverJS - Selenium
+* Chai
+* Mocha
+* Allure
+* Faker  
+
 
 # Getting Started
 
@@ -25,7 +33,7 @@ To install Node.js, download it from the Node.js webpage.
 ### Instructions.
 Clone the repository in your local machine
 ```
-git clone 
+git clone https://github.com/ictsuzuki/mediaLabInterview.git
 ```
 
 ### Installation
@@ -50,4 +58,4 @@ Once the execution is completed run next command:
 npm run report
 ```
 
-You should be able to see in your we bbrowser an html report. 
+You should be able to see in your web browser an html report. 

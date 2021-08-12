@@ -2,9 +2,9 @@ const {By, until} = require('selenium-webdriver')
 
 class BasePage {
     constructor(webdriver) {
-        this.driver = webdriver;
+        this.driver = webdriver
 
-        let driver = this.driver;
+        let driver = this.driver
 
         this.findElementById = async function (id) {
             return await driver.wait(until.elementLocated(By.id(id)), 5000, 'element with id:' + id + ' was not located');

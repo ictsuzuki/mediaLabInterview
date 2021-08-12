@@ -13,4 +13,4 @@ class MenuInnerTabsPage extends BasePage {
     }
 }
 
-module.exports = MenuInnerTabsPage; 
+module.exports = MenuInnerTabsPage 

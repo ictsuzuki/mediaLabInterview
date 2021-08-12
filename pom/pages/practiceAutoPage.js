@@ -1,4 +1,4 @@
-const BasePage = require("./basePage");
+const BasePage = require("./basePage")
 const locators = require("../locators/locators")
 
 class PracticeAutoPage extends BasePage {
@@ -13,4 +13,4 @@ class PracticeAutoPage extends BasePage {
     }
 }
 
-module.exports = PracticeAutoPage; 
+module.exports = PracticeAutoPage

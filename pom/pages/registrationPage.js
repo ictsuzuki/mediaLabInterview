@@ -9,14 +9,14 @@ class RegistrationPage extends BasePage {
 
     async fillForm(name, phone, email, city, country, userName, password){
 
-        const nameTextField = await this.findElementByCss(locators.nameTextFieldCss);
-        const phoneTextField = await this.findElementByCss(locators.phoneTextFieldCss);
-        const emailTextField = await this.findElementByCss(locators.emailTextFieldCss);
-        const countryDropdown = await this.findElementByCss(locators.countryDropDownXpath);
-        const cityTextField = await this.findElementByCss(locators.cityTextFieldCss);
-        const userNameTextField = await this.findElementByXpah(locators.userNameTextFieldXpath);
-        const passwordTextField = await this.findElementByXpah(locators.passwordTextFieldXpath);
-        const submitButton = await this.findElementByXpah(locators.submitButtonXpath);
+        const nameTextField = await this.findElementByCss(locators.nameTextFieldCss)
+        const phoneTextField = await this.findElementByCss(locators.phoneTextFieldCss)
+        const emailTextField = await this.findElementByCss(locators.emailTextFieldCss)
+        const countryDropdown = await this.findElementByCss(locators.countryDropDownXpath)
+        const cityTextField = await this.findElementByCss(locators.cityTextFieldCss)
+        const userNameTextField = await this.findElementByXpah(locators.userNameTextFieldXpath)
+        const passwordTextField = await this.findElementByXpah(locators.passwordTextFieldXpath)
+        const submitButton = await this.findElementByXpah(locators.submitButtonXpath)
 
         var elemArr = [nameTextField, phoneTextField, emailTextField, countryDropdown, cityTextField, userNameTextField, passwordTextField]
         var strsArr = [name, phone, email, city, country, userName, password]
@@ -29,10 +29,9 @@ class RegistrationPage extends BasePage {
     }
 
     async getAlertText() {
-        const alertMessage = await this.findElementByCss(locators.alertMessageCss);
+        const alertMessage = await this.findElementByCss(locators.alertMessageCss)
         await this.elementIsDisplayed(alertMessage)
-        return await alertMessage.getText();
-        
+        return await alertMessage.getText()
     }
 
     async goToTestingWebsite() {
@@ -41,4 +40,4 @@ class RegistrationPage extends BasePage {
     }
 }
 
-module.exports = RegistrationPage; 
+module.exports = RegistrationPage

@@ -14,4 +14,4 @@ class MainTabsPage extends BasePage {
     }
 }
 
-module.exports = MainTabsPage; 
+module.exports = MainTabsPage 

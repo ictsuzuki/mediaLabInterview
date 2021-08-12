@@ -12,15 +12,11 @@ class ContentInnerTabPage extends BasePage {
         await this.switchToIframe(iframe)
 
         const listMenu = await this.findAllElementsByCss(locators.listMenuCss)
-
         await this.clickOnOption(listMenu, option)
-
     }
 
     async selectAnyOptionFromSubMenu(option, subOption) {
-
         const subListMenu = await this.findElementByXpah("//li[contains(text(),'" + option + "')]/ul")
-        
         await this.clickOnOption(subListMenu, subOption)
     }
 
@@ -33,4 +29,4 @@ class ContentInnerTabPage extends BasePage {
     }
 }
 
-module.exports = ContentInnerTabPage; 
+module.exports = ContentInnerTabPage

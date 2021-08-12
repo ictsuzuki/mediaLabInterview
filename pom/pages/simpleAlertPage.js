@@ -1,4 +1,4 @@
-const BasePage = require("./basePage");
+const BasePage = require("./basePage")
 const locators = require("../locators/locators")
 
 class SimpleAlertPage extends BasePage {
@@ -21,4 +21,4 @@ class SimpleAlertPage extends BasePage {
     }
 }
 
-module.exports = SimpleAlertPage; 
+module.exports = SimpleAlertPage 

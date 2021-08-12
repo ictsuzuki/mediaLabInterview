@@ -1,5 +1,5 @@
-# MediaLab Asignment Interview
-Repository created for resolve the asigment interview at MediaLab
+# MediaLab Assignment Interview
+Repository created to resolve the assignment interview at MediaLab.
 
 # Goals
 
@@ -43,19 +43,19 @@ Install package dependencies by running.
 
 ### Test Run with console report
 
-To see the execution results in console run next command:
+To see the execution results in the console run the next command:
 ```
 npm run-console
 ```
 ### Test Run with allure report
-To see the execution results in allure report run next commands:
+To see the execution results in the allure report run the next commands:
 ```
 npm run run-allure
 ```
 
-Once the execution is completed run next command:
+Once the execution is completed run the next command:
 ```
 npm run report
 ```
 
-You should be able to see in your web browser an html report. 
+You should be able to see in your web browser an HTML report. 

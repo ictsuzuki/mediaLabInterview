@@ -41,6 +41,18 @@ Install package dependencies by running.
 
 ```npm install```
 
+### Project Structure
+```
+    ├── pom               # PageObject folder contain
+        ├── data          # Contains all test data for the test scripts
+        ├── locators      # Contains all the locators that are used in the
+        └── pages         # Contains all the actions to interact with the web app
+        └── tests         # Contains all the test scripts
+        └── utils         # Contains all helper classes (webdriver)
+
+```
+
+
 ### Test Run with console report
 
 To see the execution results in the console run the next command:
